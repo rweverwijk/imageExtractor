@@ -4,22 +4,20 @@ class RtfImageExtractorTest extends FlatSpec with DiagrammedAssertions {
 
   "a rtf extractor" should "extract metadata" in {
     val result: String = new RtfImageExtractor().parseRtf("/rtf_image_test.rtf")
-    assert(result == """Hallo,
+    assert(result == """Hello,
                        |
-                       |Dit is een test document, met tekst en een plaatje.
+                       |This is a test document in RTF Format.
+                       |There are two images in this message.
+                       |A JPG like this:
                        |
-                       |Groeten Kris
+                       |And a PNG like this:
                        |
-                       |
-                       |En Ron
-                       |
-                       |
+                       |Cheers!
                        |
                        |""".stripMargin)
   }
 
   it should "return an image from the resource" in {
     new RtfImageExtractor().extractImageExample("/rtf_image_test.rtf")
-//    assert(image.length === 12345)
   }
 }
