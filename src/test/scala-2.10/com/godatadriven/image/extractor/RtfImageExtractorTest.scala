@@ -1,3 +1,5 @@
+package com.godatadriven.image.extractor
+
 import org.scalatest.{DiagrammedAssertions, FlatSpec}
 
 class RtfImageExtractorTest extends FlatSpec with DiagrammedAssertions {

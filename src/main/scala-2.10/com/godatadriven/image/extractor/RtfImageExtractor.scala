@@ -1,3 +1,5 @@
+package com.godatadriven.image.extractor
+
 import java.io.{InputStream, OutputStream}
 
 import org.apache.tika.detect.DefaultDetector

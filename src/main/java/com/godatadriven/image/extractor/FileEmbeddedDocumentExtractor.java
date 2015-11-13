@@ -1,3 +1,5 @@
+package com.godatadriven.image.extractor;
+
 import org.apache.commons.io.FilenameUtils;
 import org.apache.commons.io.IOUtils;
 import org.apache.poi.poifs.filesystem.DirectoryEntry;
