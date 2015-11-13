@@ -1,2 +1,2 @@
 # imageExtractor
-Research project to extract images form RTF documents
+Research project to extract images from RTF documents
